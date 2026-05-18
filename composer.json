@@ -1,0 +1,17 @@
+{
+    "name": "efrenpascual/ws03",
+    "version": "1.0.0",
+    "description": "Job seeker application",
+    "authors" : [
+        {
+            "name": "Efren Dave Pascual",
+            "email": "pascualefrendave@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework/",
+            "App\\": "App/"
+        }
+    }
+}

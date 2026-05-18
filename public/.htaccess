@@ -1,0 +1,7 @@
+Options -MultiViews
+RewriteEngine On
+# Set RewriteBase to the project public path — adjust if you use a different URL
+RewriteBase /EfrenDave-Pascual-main/public/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
